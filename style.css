@@ -1,4 +1,6 @@
 /*подобрать шрифты, цвета*/
+
+
 @keyframes anim_prev {
     from {
         background-image: url(1.jpg);
@@ -166,6 +168,7 @@ li {
     font-size: 25px;
 }
 .kontakts {
+    line-height: 30px;
     color: aqua;
     overflow: hidden;
     height: 60px;
@@ -176,7 +179,7 @@ li {
     animation: foot_anim 2s infinite;
 }
 .kontakts:hover {
-    height: 180px;
+    height: 210px;
     width: 100%;
 }
 footer {
