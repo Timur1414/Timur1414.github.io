@@ -1,4 +1,4 @@
-/*подобрать шрифты, анимации*/
+/*подобрать шрифты, цвета*/
 @keyframes anim_prev {
     from {
         background-image: url(1.jpg);
@@ -60,6 +60,17 @@
     to {
         background-image: url(2.jpg);
         transform: rotate(0);
+    }
+}
+@keyframes foot_anim {
+    from {
+        color: aqua;
+    }
+    50% {
+        color: cadetblue;
+    }
+    to {
+        color: aqua;
     }
 }
 
@@ -155,12 +166,21 @@ li {
     font-size: 25px;
 }
 .kontakts {
+    color: aqua;
     overflow: hidden;
     height: 60px;
     width: 600px;
     transition: 2s;
 }
+.foot {
+    animation: foot_anim 2s infinite;
+}
 .kontakts:hover {
     height: 180px;
     width: 100%;
+}
+footer {
+    background-color: blue;
+    padding: 0 10px 10px;
+
 }
